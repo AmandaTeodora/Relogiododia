@@ -2,9 +2,8 @@ function carregar(){
     var mg = window.document.getElementById('msg')
     var ig = window.document.getElementById('image')
     var data = new Date()
-    //var hora = data.getHours()
-    var hora = 12
-     
+    var hora = data.getHours()
+         
     if (hora >= 0 && hora < 12 ){
         mg.innerHTML = `Agora são ${hora} horas Bom Dia!`
         ig.src = 'manhaa.png'
